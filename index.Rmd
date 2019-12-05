@@ -112,8 +112,8 @@ Il confronto tra la percezione iniziale e quella nuova
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### .hl[Quanti] sono i disoccupati iscritti?
 ]
 ]
@@ -178,8 +178,8 @@ Chi pubblica i dati? E dove?  ]
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### Quanti sono i disoccupati iscritti?
 #### E in Ticino?
 ]
@@ -215,8 +215,8 @@ La domanda non è scorretta, ma ce n'è una .hl[migliore]
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### Quanti sono i disoccupati iscritti?
 #### **.hl[Chi]** sono i disoccupati iscritti?
 
@@ -243,6 +243,7 @@ class: clear
 .right-column[
 
 #### Esempio
+
 .font70[
 .mid-warm-grey[USTAT], 03.03.02 Disoccupazione  
 I *disoccupati iscritti* --> [definizione](https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.sottotema&p1=35&p2=151&p3=156&proId=155https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioglossario&gloId=344&p1=35&p2=166&p3=170&proId=169)
@@ -253,8 +254,8 @@ I *disoccupati iscritti* --> [definizione](https://www3.ti.ch/DFE/DR/USTAT/index
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### Quanti sono i disoccupati iscritti?
 #### Chi sono i disoccupati iscritti?
 #### I disoccupati iscritti in Ticino
@@ -268,8 +269,8 @@ class: clear
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### Quanti sono i disoccupati iscritti?
 #### Chi sono i disoccupati iscritti?
 #### I disoccupati iscritti in Ticino
@@ -382,8 +383,8 @@ class: inverse, center, middle
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### Disoccupati iscritti .hl[vs.] disoccupati ai sensi dell'ILO
 ]
 ]
@@ -395,8 +396,8 @@ class: clear
 ---
 class: clear
 
-.left-column[
 .font90[
+.left-column[
 #### Disoccupati iscritti vs. disoccupati ai sensi dell'ILO
 #### .hl[Percezione] dell'evoluzione della disoccupazione
 
