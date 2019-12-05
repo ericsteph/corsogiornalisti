@@ -31,11 +31,11 @@ body {
   color: #000;
 }
 
-.left-column h5 {
+.left-column h4 {
     line-height: 1;
 }
 
-.left-column h5:last-of-type{
+.left-column h4:last-of-type{
   color: #000;
 }
 

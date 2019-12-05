@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-  <head>
-    <title>Come si legge una statistica</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="di Eric Stephani (Ufficio di statistica)" />
-    <link href="immagini/remark-css/default.css" rel="stylesheet" />
-    <link href="immagini/remark-css/metropolis.css" rel="stylesheet" />
-    <link href="immagini/remark-css/metropolis-fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="specifici.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Come si legge una statistica
-## Dalle percezioni, ai dati e ritorno
-### di Eric Stephani (Ufficio di statistica)
-### Corso di giornalismo della svizzera italiana
-### Sabato 14 dicembre | Modulo 11: Statistica - Etica
-
+---
+title: "Come si legge una statistica"
+subtitle: "Dalle percezioni, ai dati e ritorno" 
+author: "di Eric Stephani (Ufficio di statistica)"
+institute: "Corso di giornalismo della svizzera italiana"
+date: "Sabato 14 dicembre | Modulo 11: Statistica - Etica"
+output:
+  xaringan::moon_reader:
+    css: [default, "metropolis", "metropolis-fonts", "specifici.css"]
+    lib_dir: immagini
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
 ---
 
+```{r setup, include=FALSE}
 
+options(htmltools.dir.version = FALSE)
 
+knitr::opts_chunk$set(fig.width=4.25, fig.height=3.5, fig.retina=3,
+                      message=FALSE, warning=FALSE, cache = TRUE, 
+                      autodep = TRUE, hiline=TRUE)
+
+options(knitr.kable.NA = '')
+
+```
 
 class: middle clear
 
@@ -30,7 +33,7 @@ class: middle clear
 
 --
 
-&lt;br&gt;
+<br>
 ### ***Vademecum***
 
 1. Il *ruolo* della statistica pubblica  
@@ -49,11 +52,11 @@ class: middle clear
 class: middle clear
 
 *Domanda:*
-&gt; "A vostro avviso nei prossimi 12 mesi quale sarà l’evoluzione del numero di disoccupati in Svizzera?"
+> "A vostro avviso nei prossimi 12 mesi quale sarà l’evoluzione del numero di disoccupati in Svizzera?"
 
 --
 
-&lt;br&gt;
+<br>
 *Risposte:*  
 
 .pull-left[
@@ -124,7 +127,7 @@ class: clear
 ]
 
 .font60[
-&gt; "Secondo i rilevamenti effettuati dalla Segreteria di Stato dell’economia (SECO), alla fine di ottobre 2019
+> "Secondo i rilevamenti effettuati dalla Segreteria di Stato dell’economia (SECO), alla fine di ottobre 2019
 erano **iscritti 101’684 disoccupati** presso gli uffici regionali di collocamento (URC), ossia 2’586 in più rispetto
 al mese precedente. Il tasso di disoccupazione è salito dal 2,1% nel mese di settembre 2019 al 2,2% nel
 mese in rassegna. Rispetto allo stesso mese dell’anno precedente, il numero di disoccupati è diminuito di
@@ -142,7 +145,7 @@ mese in rassegna. Rispetto allo stesso mese dell’anno precedente, il numero di
 ]
 
 .font60[
-&gt; "Torna a salire, seppur leggermente, la disoccupazione in Svizzera: in ottobre il tasso dei senza lavoro si è attestato al 2,2%, contro il 2,1% di settembre, valore più basso dal 2001. Nel confronto su un anno vi è stata invece una contrazione di 0,1 punti. **I disoccupati hanno inoltre di nuovo superato la .hl[soglia psicologica] di 100mila persone, per la prima volta dal maggio scorso**."
+> "Torna a salire, seppur leggermente, la disoccupazione in Svizzera: in ottobre il tasso dei senza lavoro si è attestato al 2,2%, contro il 2,1% di settembre, valore più basso dal 2001. Nel confronto su un anno vi è stata invece una contrazione di 0,1 punti. **I disoccupati hanno inoltre di nuovo superato la .hl[soglia psicologica] di 100mila persone, per la prima volta dal maggio scorso**."
 
 ]
 ]
@@ -151,7 +154,7 @@ mese in rassegna. Rispetto allo stesso mese dell’anno precedente, il numero di
 
 .right-column[
 .font70[
-&lt;br&gt;
+<br>
 Chi pubblica i dati? E dove?  ]
 .font60[
   
@@ -186,7 +189,7 @@ class: clear
 
 --
 
-&lt;br&gt;
+<br>
 .right-column[
 La domanda è corretta?
 ]
@@ -217,7 +220,7 @@ class: clear
 #### Quanti sono i disoccupati iscritti?
 #### **.hl[Chi]** sono i disoccupati iscritti?
 
-&lt;br&gt;
+<br>
 .img-left[![](immagini/omino-trnq3.png)]
 
 ]
@@ -226,11 +229,11 @@ class: clear
 --
 
 .right-column[
-&lt;br&gt;
+<br>
 #### **I metadati**
 
 .font70[
-&gt; *“I *metadati*, o *data about data* sono tutte le informazioni che permettono ai numeri di parlare di farci comprendere appieno il loro significato: glossari, classificazioni, **definizioni**, **metodologia** di indagine,...”*
+> *“I *metadati*, o *data about data* sono tutte le informazioni che permettono ai numeri di parlare di farci comprendere appieno il loro significato: glossari, classificazioni, **definizioni**, **metodologia** di indagine,...”*
 
 ]
 ]
@@ -242,7 +245,7 @@ class: clear
 #### Esempio
 .font70[
 .mid-warm-grey[USTAT], 03.03.02 Disoccupazione  
-I *disoccupati iscritti* --&gt; [definizione](https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.sottotema&amp;p1=35&amp;p2=151&amp;p3=156&amp;proId=155https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioglossario&amp;gloId=344&amp;p1=35&amp;p2=166&amp;p3=170&amp;proId=169)
+I *disoccupati iscritti* --> [definizione](https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.sottotema&p1=35&p2=151&p3=156&proId=155https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioglossario&gloId=344&p1=35&p2=166&p3=170&proId=169)
 
 ]
 ]
@@ -282,7 +285,7 @@ class: clear
 ---
 # Quando nascono i problemi
 
-&lt;br&gt;
+<br>
 .font60[
 23 luglio 2019,
   [www.**bfs**.admin.ch: ](https://www.bfs.admin.ch/bfs/it/home.assetdetail.9106992.html) ***"Forza lavoro potenziale: 830 000 persone sarebbero disposte a lavorare (di più)"***  
@@ -291,7 +294,7 @@ class: clear
 --
 
 .font70[
-&gt; "Nel 2018 in Svizzera il potenziale di forza lavoro inutilizzato ammontava a 830 000 persone ed era costituito da 356 000 sottoccupati, 231 000 disoccupati e 243 000 facenti parte della «riserva di persone» (persone alla ricerca di un lavoro, ma non immediatamente disponibili e viceversa). Il volume di lavoro che i sottoccupati sarebbero stati disposti a fornire addizionato a quello dei disoccupati corrisponde a una mancanza di lavoro pari a 299 000 posti a tempo pieno."
+> "Nel 2018 in Svizzera il potenziale di forza lavoro inutilizzato ammontava a 830 000 persone ed era costituito da 356 000 sottoccupati, 231 000 disoccupati e 243 000 facenti parte della «riserva di persone» (persone alla ricerca di un lavoro, ma non immediatamente disponibili e viceversa). Il volume di lavoro che i sottoccupati sarebbero stati disposti a fornire addizionato a quello dei disoccupati corrisponde a una mancanza di lavoro pari a 299 000 posti a tempo pieno."
 
 ]
 
@@ -303,7 +306,7 @@ class: clear
 ]
 
 .font70[
-&gt; "Tra il terzo trimestre del 2018 e il terzo trimestre del 2019 il numero di occupati in Svizzera è aumentato dello 0,3%. Nello stesso periodo, il tasso di disoccupazione secondo la definizione dell’Organizzazione internazionale del lavoro (ILO) è salito dal 4,4 al 4,6%."
+> "Tra il terzo trimestre del 2018 e il terzo trimestre del 2019 il numero di occupati in Svizzera è aumentato dello 0,3%. Nello stesso periodo, il tasso di disoccupazione secondo la definizione dell’Organizzazione internazionale del lavoro (ILO) è salito dal 4,4 al 4,6%."
 
 ]
 
@@ -374,7 +377,7 @@ Orizzonte
 
 class: inverse, center, middle
 
-# E le .hl[PERCEZIONI]&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px&gt;&lt;/html&gt;
+# E le .hl[PERCEZIONI]<html><div style='float:left'></div><hr color='#EB811B' size=1px></html>
 
 ---
 class: clear
@@ -413,132 +416,23 @@ class: clear
 # Conclusioni
 
 .img-right[![](immagini/poppins-trucco.gif)]
-&lt;br&gt;
+<br>
 Le statistiche sono un po' meno magiche, ma più utili e forti quando:  
 1. è possibile .hl[confrontarle] con le nostre percezioni    
 2. nel .hl[contesto] ha senso riferirsi anche a una quantità   
 3. la .hl[fonte] è conosciuta e affidabile
 
 
-&lt;br&gt;
-&lt;br&gt;
+<br>
+<br>
 .font90[
 per qualsiasi domanda   
 [eric.stephani@ti.ch](mailto:eric.stephani@ti.ch)  
 ]
 
-&lt;br&gt;
+<br>
 .font90[
 .mid-warm-grey[
 Slides create con R, in particolare col pacchetto [**{xaringan}**](https://github.com/yihui/xaringan)
 ]
 ]
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
-
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
-
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
-
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
-
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
