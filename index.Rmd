@@ -1,9 +1,9 @@
 ---
 title: "Come si legge una statistica"
-subtitle: "Dalle percezioni, ai dati e ritorno" 
-author: "di Eric Stephani (Ufficio di statistica)"
+subtitle: "Dalle percezioni, ai dati e .hl[ritorno]" 
+author: "*di Eric Stephani (Ufficio di statistica)*"
 institute: "Corso di giornalismo della svizzera italiana"
-date: "Sabato 14 dicembre | Modulo 11: Statistica - Etica"
+date: "Sabato 14 dicembre **|** Modulo 11: Statistica - Etica"
 output:
   xaringan::moon_reader:
     css: [default, "metropolis", "metropolis-fonts", "specifici.css"]
@@ -13,6 +13,13 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: 16:9
+---
+
+layout: true
+
+background-image: url(immagini/logoTI_slides.png)
+background-position: 1% 97%
+
 ---
 
 ```{r setup, include=FALSE}
@@ -26,6 +33,8 @@ knitr::opts_chunk$set(fig.width=4.25, fig.height=3.5, fig.retina=3,
 options(knitr.kable.NA = '')
 
 ```
+
+
 
 class: middle clear
 
@@ -85,7 +94,7 @@ class: middle clear
 
 .pull-left[
 .img-left[![](immagini/03_30min_300.jpg)]
-.font60[.dark-warm-grey[
+.font50[.dark-warm-grey[
 *“Polarised opinion landscapes and widespread misinformation have formed in an environment where emotions and beliefs prevail over facts and evidence. Something needs to be done to **regulate** the new data ecosystem, **educate** citizens and **limit** the misuse of data information”*
 ]
 Paris21, conferenza annuale, Berna, 04.2018
@@ -425,15 +434,14 @@ Le statistiche sono un po' meno magiche, ma più utili e forti quando:
 
 
 <br>
-<br>
-.font90[
+.font80[
 per qualsiasi domanda   
 [eric.stephani@ti.ch](mailto:eric.stephani@ti.ch)  
 ]
 
 <br>
-.font90[
+.font80[
 .mid-warm-grey[
-Slides create con R, in particolare col pacchetto [**{xaringan}**](https://github.com/yihui/xaringan)
+Slides create con R, via [**{xaringan}**](https://github.com/yihui/xaringan)
 ]
 ]
