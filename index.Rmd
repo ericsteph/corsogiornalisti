@@ -1,12 +1,12 @@
 ---
 title: "Come si legge una statistica"
-subtitle: "Dalle percezioni, ai dati e .hl[ritorno]" 
+subtitle: "Dalle percezioni, ai dati e .hl[ritorno] <html><div style='float:left'></div><hr color='#0070C0' size=2px></html>" 
 author: "*di Eric Stephani (Ufficio di statistica)*"
 institute: "Corso di giornalismo della svizzera italiana"
-date: "Sabato 14 dicembre **|** Modulo 11: Statistica - Etica"
+date: "Sabato 14 dicembre **| Modulo 11: Statistica - Etica**"
 output:
   xaringan::moon_reader:
-    css: [default, "metropolis", "metropolis-fonts", "specifici.css"]
+    css: [default, "metropolis_ustat.css", "metropolis-fonts", "specifici.css"]
     lib_dir: immagini
     nature:
       highlightStyle: github
@@ -18,7 +18,7 @@ output:
 layout: true
 
 background-image: url(immagini/logoTI_slides.png)
-background-position: 1% 97%
+background-position: 1.5% 96.5%
 
 ---
 
@@ -124,6 +124,7 @@ class: clear
 .font90[
 .left-column[
 #### .hl[Quanti] sono i disoccupati iscritti?
+
 ]
 ]
 
@@ -191,6 +192,7 @@ class: clear
 .left-column[
 #### Quanti sono i disoccupati iscritti?
 #### E in Ticino?
+
 ]
 ]
 
@@ -384,10 +386,9 @@ Orizzonte
 ]
 
 ---
-
 class: inverse, center, middle
 
-# E le .hl[PERCEZIONI]<html><div style='float:left'></div><hr color='#EB811B' size=1px></html>
+# Torniamo allora alle percezioni <html><div style='float:left'></div><hr color='#0070C0' size=1px></html>
 
 ---
 class: clear
@@ -422,7 +423,6 @@ class: clear
 ]
 
 ---
-
 # Conclusioni
 
 .img-right[![](immagini/poppins-trucco.gif)]
