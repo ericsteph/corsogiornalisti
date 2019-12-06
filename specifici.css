@@ -23,16 +23,12 @@ body {
   font-size: 0.9em;
 }
 
-.left-column h3 {
+.left-column h4 {
     line-height: 1;
-}
-
-.left-column h3:last-of-type{
-  color: #000;
 }
 
 .left-column h4 {
-    line-height: 1;
+  color: #C0C0C0;
 }
 
 .left-column h4:last-of-type{
