@@ -28,7 +28,7 @@ options(htmltools.dir.version = FALSE)
 
 knitr::opts_chunk$set(fig.width=4.25, fig.height=3.5, fig.retina=3,
                       message=FALSE, warning=FALSE, cache = TRUE, 
-                      autodep = TRUE, hiline=TRUE)
+                      autodep = TRUE, hiline=TRUE, dev = "svg")
 
 options(knitr.kable.NA = '')
 
@@ -269,12 +269,19 @@ class: clear
 .left-column[
 #### Quanti sono i disoccupati iscritti?
 #### Chi sono i disoccupati iscritti?
-#### I disoccupati iscritti in Ticino
+#### I disoccupati iscritti in Svizzera e in Ticino
 ]
 ]
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+source(file = "Figure.R")
+```
+
 .right-column[
-##### Figura 1
+```{r p1, echo=FALSE, eval=TRUE, out.width= 750}
+p1
+```
+
 ]
 
 ---
@@ -284,18 +291,38 @@ class: clear
 .left-column[
 #### Quanti sono i disoccupati iscritti?
 #### Chi sono i disoccupati iscritti?
-#### I disoccupati iscritti in Ticino
-#### Gli iscritti non disoccupati in Ticino e in Svizzera
+#### I disoccupati iscritti in Svizzera e in Ticino
+#### Gli iscritti .hl[non] disoccupati in Svizzera e in Ticino
 ]
 ]
 
 .right-column[
-##### Figura 2
-
+```{r p3, echo=FALSE, out.width= 750}
+p3
+```
 ]
 
 ---
-# Quando nascono i problemi
+class: clear
+
+.font90[
+.left-column[
+#### Quanti sono i disoccupati iscritti?
+#### Chi sono i disoccupati iscritti?
+#### I disoccupati iscritti in Svizzera e in Ticino
+#### Gli iscritti non disoccupati in Svizzera e in Ticino
+#### Gli iscritti agli URC in Svizzera e in Ticino
+]
+]
+
+.right-column[
+```{r p4, echo=FALSE, out.width= 750}
+p4
+```
+]
+
+---
+# Quando il problema diventa un grattacapo
 
 <br>
 .font60[
@@ -395,12 +422,15 @@ class: clear
 
 .font90[
 .left-column[
-#### Disoccupati iscritti .hl[vs.] disoccupati ai sensi dell'ILO
+#### Disoccupati ai sensi dell'ILO .hl[vs.] disoccupati iscritti
 ]
 ]
 
+
 .right-column[
-##### Figura 3
+```{r p5, echo=FALSE, out.width= 750}
+p5
+```
 ]
 
 ---
@@ -417,10 +447,11 @@ class: clear
 --
 
 .right-column[
-
-##### Figura 4
-
+```{r p6, echo=FALSE, out.width= 750}
+p6
+```
 ]
+
 
 ---
 # Conclusioni
