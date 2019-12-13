@@ -35,6 +35,14 @@ body {
   color: #000;
 }
 
+.pull-left h4 {
+  color: #C0C0C0;
+}
+
+.pull-left h4:last-of-type{
+  color: #000;
+}
+
 .right-column {
   padding-top: 0;
 }

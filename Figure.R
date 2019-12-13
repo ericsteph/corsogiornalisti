@@ -2,7 +2,7 @@ library(tidyverse)
 library(readxl)
 
 
-d <- read_excel("G:/Giornalisti/excel/base.xlsx")
+d <- read_excel("G:/Giornalisti/ES/excel/base.xlsx")
 
 
 # Figura 1, evoluzione disoccupati iscritti in Svizzera e in Ticino
@@ -66,7 +66,7 @@ p3 <- d %>%
                               "2015, II trim.", "2017, II trim.", "2019, II trim."),
                    labels = c("2007", "2009", "2011", "2013", "2015", "2017", "2019")) +
   labs(x = "", y = "",
-       title = "Iscritti non disoccupati in Svizzera e in Ticino,\nper trimestre, dal 2007",
+       title = "Persone in cerca di impiego non disoccupate in Svizzera e in Ticino,\nper trimestre, dal 2007",
        subtitle = "Dati in migliaia",
        caption = "Fonte: Statistica dei disoccupati iscritti, Seco, Berna") +
   theme_bw() +
@@ -90,7 +90,7 @@ p4 <- d %>%
                               "2015, II trim.", "2017, II trim.", "2019, II trim."),
                    labels = c("2007", "2009", "2011", "2013", "2015", "2017", "2019")) +
   labs(x = "", y = "",
-       title = "Iscritti agli URC in Svizzera e in Ticino,\nper trimestre, dal 2007",
+       title = "Persone in cerca di impiego in Svizzera e in Ticino,\nper trimestre, dal 2007",
        subtitle = "Dati in migliaia",
        caption = "Fonte: Statistica dei disoccupati iscritti, Seco, Berna") +
   theme_bw() +
@@ -112,7 +112,7 @@ p5 <- d %>%
   ggplot() +
   aes(x = QUANDO, y = value, group = GEO) +
   geom_smooth(colour = "red", fill = "gray80", size = .4, na.rm = TRUE, method = "loess") +
-  geom_line(na.rm = TRUE, size = 1.2) +
+  geom_line(na.rm = TRUE, size = .8) +
   scale_x_discrete(breaks = c("2007, II trim.", "2009, II trim.", "2011, II trim.", "2013, II trim.",
                               "2015, II trim.", "2017, II trim.", "2019, II trim."),
                    labels = c("2007", "2009", "2011", "2013", "2015", "2017", "2019")) +
@@ -121,9 +121,9 @@ p5 <- d %>%
                    limits = c(0, 9)) +
   facet_grid(rows = vars(GEO), cols = vars(Tx_diso), labeller = labeller(Tx_diso = labels)) +
   labs(x = "", y = "",
-       title = "Tasso di disoccupazione ai sensi dell'ILO e secondo la definizione della Seco,\nin Svizzera e in Ticino, per trimestre, dal 2007",
+       title = "Tasso di disoccupazione ai sensi dell'ILO e secondo la Seco,\nin Svizzera e in Ticino, per trimestre, dal 2007",
        subtitle = "Dati in percentuale",
-       caption = "Fonti: Rilevazione sulla Forza di lavoro in Svizzera (Rifos), Ust, Neuchatel;\nStatistica dei disoccupati iscritti, Seco, Berna") +
+       caption = "Fonti: Rilevazione sulla Forza di lavoro in Svizzera (Rifos), Ust, Neuch\u00E2tel;\nStatistica dei disoccupati iscritti, Seco, Berna") +
   theme_bw() +
   theme(
     plot.title = element_text(size = rel(0.8), face = "bold"),
